@@ -1,0 +1,35 @@
+I chose to include th following components in my Pac-Man Controller.
+
+1: Arduino: power the device
+
+2. Potentiometer: can be used to control the ghosts speed and act as a live difficulty changer. I created a top knob for it that fits around the potentiometer
+to be able to turn it. These only print when the value is changed to avoid filling the serial monitor.
+
+3. 4 Buttons: Each button can be used as a special ability to slow pacman, make pacmans controlls locked for a few
+seconds, add more pellets around player, and even teleoport the player to a random location. There are buttons in TinkerCAD that print A, B, X, or Y depending
+on what button is pressed.
+
+4. Vibration Motor: to indicate when the player dies. This is toggles with a push button on TinkerCAD. I needed to use a transistor to allow for the button
+to toggle the motor.
+
+5. A Joystick so that they player can move. In TinkerCAD this is represented by 2 potentiometers. One for the X and one for the Y. These only print when the value is
+changed to avoid filling the serial monitor.
+
+6. I have included an LED that will light up when the player uses an ability. This is toggled with a push button in TinkerCAD.
+
+7. Accelerometer/ Tilt Sensor: This will be used for tilt controls. In tinkerCAD this is represented by a Tilt Sensor. These only print when the value is
+changed to avoid filling the serial monitor.
+
+
+I chose these components to make PacMan not only playable, but revolutionary. Adding extra inputs to change the gameplay on the fly
+will change the gaming experience completely. Especially since the player is playing as the ghost instead. 
+
+
+
+
+In Fusion 360 I started by dragging in each component that I would need. I then created a shell that would house each component. After this,
+I created platforms to hold each of the components in place. Once this was done, I created my TinkerCAD circuit with all of the components from Fusion
+represented in a TinkerCAD circuit (As explained above). After this, I created my Assembly/Technical Drawings. Unfortunately, the LED component was not
+showing up in the technical drawing. I tried to replace this with a blocked out version but it was not linking to the technical drawing when I tried. I also
+has to seperate all of the components to get a better view like an exploded view for the assembly and it kept changing all of my technical drawings because of this.
+So this resulted in the Assembly missing the number 5.
